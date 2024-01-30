@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* --------------------
+    header
+--------------------- */
+
+header {
+    background-color: #000000;
+    padding: 2.5rem;
+}
+
+header img {
+    width: 5rem;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    letter-spacing: 1rem;
+    margin-left: 3rem;
+    color: #fefefe;
+    vertical-align: middle;
+}
+
+/* --------------------
+    main container
+--------------------- */
+
+.container {
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 20px;
+    background-color: red;
+}
