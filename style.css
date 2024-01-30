@@ -1,3 +1,7 @@
+:root {
+    --red: #cd192d;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +30,7 @@ h1 {
     display: inline-block;
     letter-spacing: 1rem;
     margin-left: 3rem;
-    color: #fefefe;
+    color: #ffffff;
     vertical-align: middle;
 }
 
@@ -35,10 +39,55 @@ h1 {
 --------------------- */
 
 .container {
-    width: 80vw;
+    width: 60vw;
     height: 60vh;
     margin: auto;
     margin-top: 10rem;
     border-radius: 20px;
-    background-color: red;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+/* --------------------
+    bike stuff
+--------------------- */
+
+#item-container {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%, 30%);
+    /* background-color: #f4f4f4; */
+
+}
+
+#item-container img {
+    width: 20rem;
+    margin: auto;
+}
+
+#model {
+    text-align: center;
+}
+
+#model span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#model small {
+    color: #fefefe;
+    margin-left: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #cd192d;
+    vertical-align: middle;
+}
+
+#tiger {
+    color: #101080;
 }
