@@ -52,7 +52,7 @@ h1 {
     bike stuff
 --------------------- */
 
-#item-container {
+#mbike {
     width: 20rem;
     height: 20rem;
     border-radius: 15px;
@@ -64,7 +64,7 @@ h1 {
 
 }
 
-#item-container img {
+#mbike img {
     width: 20rem;
     margin: auto;
 }
@@ -90,4 +90,73 @@ h1 {
 
 #tiger {
     color: #101080;
+}
+
+/* --------------------
+    MAINTENANCE LIST
+--------------------- */
+
+.maintenance {
+    padding: 12rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.maintenance h3 {
+    font-size: 1.3rem;
+}
+
+.maintenance li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 1.75rem;
+    font-weight: bolder;
+}
+
+.done {
+    background-color: limegreen;
+}
+
+.todo {
+    background-color: rgb(205, 50, 50);
+}
+
+
+.maintenance h3:before {
+    content: "\25BC";
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px;
+    font-size: 12px;
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+    color: #ffffff;
+    box-shadow: 1px 2px #3f3f3f;
+}
+
+.important {
+    background-color: #cd192d;
+}
+
+.optional {
+    background-color: #cacd19;
+}
+
+.suggested {
+    background-color: #1958cd;
 }
